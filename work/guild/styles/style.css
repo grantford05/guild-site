@@ -1,0 +1,64 @@
+html
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', josefin-sans;
+	text-align: center;
+	cursor: default;
+}
+
+body
+{
+	background-color: #191919;
+}
+
+
+#footer
+{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    min-height: 20px;
+    border-top: 1px solid white;
+    background-color:black;
+    opacity: 0.3;
+    color: white;
+}
+
+#footer a
+{
+	color: white;
+}
+
+#footer a:hover
+{
+	color: #D00000;
+}
+
+.details
+{
+	float: right;
+	padding-right: 25px;
+}
+
+.emblem
+{
+	position: absolute;
+  	top: 40%;
+   	left: 50%;
+   	width: 500px;
+  	height: 500px;
+  	margin-top: -250px;
+  	margin-left: -250px;
+}
+
+.title
+{
+	position: absolute;
+	width: 100%;
+   	color: white;
+   	font-size: 250%;
+   	padding-top: 35%;
+}
