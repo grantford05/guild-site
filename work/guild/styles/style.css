@@ -27,6 +27,11 @@ body
     color: white;
 }
 
+#splash:hover
+{
+	cursor:;
+}
+
 #footer a
 {
 	color: white;
@@ -61,4 +66,13 @@ body
    	color: white;
    	font-size: 250%;
    	padding-top: 35%;
+}
+
+.enter
+{
+	position: absolute;
+	width: 100%;
+   	color: white;
+   	font-size: 150%;
+   	padding-top: 40%;
 }
