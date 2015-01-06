@@ -5,6 +5,7 @@ html
 	font-family: 'Josefin Sans', josefin-sans;
 	text-align: center;
 	cursor: default;
+	list-style: none;
 }
 
 body
@@ -27,9 +28,69 @@ body
     color: white;
 }
 
-#splash:hover
+#banner
 {
-	cursor:;
+	position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    min-height: 20px;
+    border-bottom: 1px solid white;
+    background-color:black;
+    opacity: 0.3;
+    color: white;
+}
+
+#nav ul
+{
+	list-style: none;
+	min-width: 80%;
+}
+
+#nav li
+{
+	display: inline;
+	min-width: 80%;
+	padding-left: 100px;
+	padding-right: 100px;
+	border-left: 1px solid white;
+}
+
+#nav li:first-of-type
+{
+	border-left: 0;
+}
+
+#nav li:hover
+{
+	opacity: 1;
+	text-decoration: underline;
+	color: #D00000;
+}
+
+#home
+{
+	position: absolute;
+	padding-left: 100%;
+	width: 100%;
+	margin-top:40px;
+}
+
+#guildevents
+{
+	position: absolute;
+	padding-left: 200%;
+	width: 100%;
+	margin-top:40px;
+}
+
+#guildcontact
+{
+	position: absolute;
+	padding-left: 300%;
+	width: 100%;
+	margin-top:40px;
 }
 
 #footer a
@@ -42,10 +103,35 @@ body
 	color: #D00000;
 }
 
+.welcome
+{
+	margin-top: 150px;
+	font-size: 200%;
+	color: #D00000;
+}
+
+.info
+{
+	font-size: 150%;
+	color: white;
+}
+
 .details
 {
 	float: right;
 	padding-right: 25px;
+}
+
+.activities
+{
+	margin-top: 10px;
+	color: white;
+	font-size: 120%;
+}
+
+#home ul
+{
+	list-style: none;
 }
 
 .emblem
@@ -59,6 +145,12 @@ body
   	margin-left: -250px;
 }
 
+.gw2
+{
+	float: left;
+	padding-left: 10px;
+}
+
 .title
 {
 	position: absolute;
@@ -66,13 +158,4 @@ body
    	color: white;
    	font-size: 250%;
    	padding-top: 35%;
-}
-
-.enter
-{
-	position: absolute;
-	width: 100%;
-   	color: white;
-   	font-size: 150%;
-   	padding-top: 40%;
 }
