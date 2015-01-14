@@ -55,6 +55,7 @@ body
 	padding-left: 100px;
 	padding-right: 100px;
 	border-left: 1px solid white;
+	cursor: pointer;
 }
 
 #nav li:first-of-type
@@ -69,12 +70,21 @@ body
 	color: #D00000;
 }
 
+#container
+{
+	margin-top: 40px;
+}
+
 #home
 {
 	position: absolute;
 	padding-left: 100%;
 	width: 100%;
-	margin-top:40px;
+}
+
+#home ul
+{
+	list-style: none;
 }
 
 #guildevents
@@ -82,7 +92,19 @@ body
 	position: absolute;
 	padding-left: 200%;
 	width: 100%;
-	margin-top:40px;
+}
+
+#guildevents ul
+{
+	display: table-row;
+	list-style: none;
+	text-align: justify;
+}
+
+#guildevents ul li
+{
+	vertical-align: middle;
+	display: table-cell;
 }
 
 #guildcontact
@@ -90,7 +112,6 @@ body
 	position: absolute;
 	padding-left: 300%;
 	width: 100%;
-	margin-top:40px;
 }
 
 #footer a
@@ -110,6 +131,15 @@ body
 	color: #D00000;
 }
 
+.subtitle
+{
+	position: absolute;
+	width: 100%;
+   	color: white;
+   	font-size: 150%;
+   	padding-top: 40%;
+}
+
 .info
 {
 	font-size: 150%;
@@ -127,11 +157,6 @@ body
 	margin-top: 10px;
 	color: white;
 	font-size: 120%;
-}
-
-#home ul
-{
-	list-style: none;
 }
 
 .emblem

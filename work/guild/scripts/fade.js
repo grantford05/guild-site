@@ -5,7 +5,7 @@ $(function(){
 
 /*Scroll to home on click*/
 $(".home").click(function(){
-  $("#emblem").fadeOut(3000);
+  window.scrollBy()
 });
 
 /*Fade out splash and fade in home content on emblem click (3 seconds)*/
